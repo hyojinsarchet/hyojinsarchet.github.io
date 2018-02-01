@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    background: url(black_tile.jpg) fixed center;
+}
+
+.container {
+    height: auto;
+    width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+}
+
+/*.behind_img {
+    position: absolute;
+    z-index: -1;
+    height: 1000px;
+    width: 1000px;
+}*/
+
+header {
+    height: 50px;
+
+}
+
+.nav1 {
+
+}
+
+.nav_top {
+    text-align: right;
+}
+
+
+/*Q: why doesn't it stay on the left side?*/
+.home_button {
+    text-align: left;
+}
+
+main {
+    height: 500px;
+    background: white;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+}
