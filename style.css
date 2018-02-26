@@ -1,48 +1,162 @@
+/***********************  page 1 style starts  ********************************/
 body {
-    background-color: white;
-    background: url(black_tile.jpg) fixed center;
+    background: url(images/black_tile.jpg) fixed center;
+    font-family: 'Lato', sans-serif;
 }
 
-.container {
+/********  grid info start  ***********/
+.grid-container1 {
+
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "header header"
+                         /* "hr hr" */
+                         "main1 main2"
+                         /* "hr hr" */
+                         "footer footer";
+    grid-gap: 3em;
+}
+
+header {
+    grid-area: header;
+}
+
+/*Q: how to make hr tag horizontal again?*/
+
+hr {
+    grid-area: hr;
+    display: inline-block;
+}
+
+main {
+  grid-area: main1;
+}
+
+aside {
+  grid-area: main2;
+}
+
+footer {
+    grid-area: footer;
+}
+/***********************  grid info end  ********************************/
+
+
+/* parent tag of .home_button and .nav_top */
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: solid 1px;
+}
+
+/* .nav1 li {
+  display: inline-block;
+} */
+
+.home_button {
+    margin: auto auto auto 100px;
+}
+
+/* parent tag of .nav_top li */
+.nav_top {
+    list-style: none;
+    font-size: 18px;
+    margin: 0 200px auto auto;
+}
+
+.nav_top li {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* .main {
+      display: flex;
+} */
+
+main {
+      margin: auto auto auto 150px;
+      /* opacity: .5; */
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav2 li {
+    margin: auto 30px;
+}
+
+h1 {
+    font-size: 300%;
+    text-transform: uppercase;
+    margin-left: -70px;
+}
+
+h2 {
+    font-size: 350%;
+    margin-left: 50px;
+    color: gray;
+    /* text-shadow: 3px 2px skyblue; */
+}
+
+/***********************  page 2 style starts  ********************************/
+/*********************  grid 2 info start  *********************/
+.grid-container2 {
+      display: grid;
+}
+
+#page2 {
     height: auto;
-    width: 900px;
+    width: 90%;
     margin: 0 auto;
     background: white;
     padding: 50px;
 }
 
-/*.behind_img {
-    position: absolute;
-    z-index: -1;
-    height: 1000px;
-    width: 1000px;
-}*/
 
-header {
-    height: 50px;
 
+
+
+/***********************  grid 2 info end  ********************************/
+
+
+
+
+
+
+
+/***********************  page 3 style starts  ********************************/
+/*********************  grid 3 info start  *********************/
+.grid-container3 {
+      display: grid;
 }
 
-.nav1 {
-
-}
-
-.nav_top {
-    text-align: right;
-}
-
-
-/*Q: why doesn't it stay on the left side?*/
-.home_button {
-    text-align: left;
-}
-
-main {
-    height: 500px;
+#page3 {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
     background: white;
+    padding: 50px;
 }
 
-footer {
-    height: 50px;
-    text-align: center;
-}
+/***********************  grid 3 info end  ********************************/
