@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import { BrowserRouter, Route, Link } from "react-router-dom";
 import Nav from "../Nav/Nav";
-import About from "../About/About";
+import Home from "../Home/Home";
 import Project from "../Project/Project";
 // import "../Contact/Contact";
 // import "../Footer/Footer";
@@ -12,13 +12,14 @@ class App extends Component {
     return (
       <div className="app">
         <Nav />
-        <About />
+        <h1 className="name">HYOJIN SARCHET</h1>
+        <h1 className="title">WEB DEVELOPER</h1>
+        <hr className="hr" />
+        <Home />
+        <Project />
       </div>
     );
   }
 }
 
 export default App;
-
-// Learn about 'Single Page Web with React' from this link
-// https://hackernoon.com/simple-guide-to-creating-a-single-page-app-with-react-router-6b6f709a2e3f

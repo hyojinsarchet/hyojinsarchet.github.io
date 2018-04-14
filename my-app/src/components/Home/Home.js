@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "./About.css";
+import "./Home.css";
 
-class About extends Component {
+class Home extends Component {
   render() {
     const settings = {
       infinite: true,
@@ -15,24 +15,21 @@ class About extends Component {
     };
 
     return (
-      <div className="about">
-        <h1 className="name">HYOJIN SARCHET</h1>
-        <h1 className="title">WEB DEVELOPER</h1>
-
-        <hr />
-
-        <a
-          className="in"
-          href="https://www.linkedin.com/in/hyojin-sarchet-580463b0/"
-        >
-          <img src="images/in.jpeg" alt="LinkedIn" />
-        </a>
-        <a className="git" href="https://github.com/hyojinsarchet">
-          <img src="images/git.png" alt="Github" />
-        </a>
-        <a className="email" href="mailto:hyojin.sarchet@gmail.com">
-          <img src="../images/mail.png" alt="Email" />
-        </a>
+      <div className="home">
+        <div className="link-list">
+          <a
+            className="in"
+            href="https://www.linkedin.com/in/hyojin-sarchet-580463b0/"
+          >
+            <img src="images/in.jpeg" alt="LinkedIn" />
+          </a>
+          <a className="git" href="https://github.com/hyojinsarchet">
+            <img src="images/git.png" alt="Github" />
+          </a>
+          <a className="email" href="mailto:hyojin.sarchet@gmail.com">
+            <img src="../images/mail.png" alt="Email" />
+          </a>
+        </div>
 
         <Slider {...settings} className="slider">
           <div className="slide-one">
@@ -56,4 +53,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Home;

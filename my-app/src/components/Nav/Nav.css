@@ -1,11 +1,12 @@
-.Nav {
+.nav {
   margin-top: 50px;
   text-align: center;
+  margin-bottom: 150px;
 }
 
-.home,
-.project,
-.contact {
+.nav-home,
+.nav-project,
+.nav-contact {
   margin: 10px;
   text-decoration: none;
   color: black;
@@ -14,9 +15,9 @@
   font-weight: 510;
 }
 
-.home:hover,
-.project:hover,
-.contact:hover {
+.nav-home:hover,
+.nav-project:hover,
+.nav-contact:hover {
   text-decoration: underline;
   color: red;
 }
