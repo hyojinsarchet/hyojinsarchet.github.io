@@ -1,0 +1,66 @@
+.about {
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  /* border: 5px solid #4d7c26;
+  border-style: groove; */
+  width: 900px;
+  height: 320px;
+  padding: 80px 50px 0 50px;
+  margin: 50px auto auto auto;
+  color: black;
+  opacity: 0.8;
+  border-radius: 10px;
+  font-size: 1.5em;
+  display: fixed;
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+}
+
+.slider {
+  margin-top: 50px;
+}
+
+.name {
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0px auto 0px auto;
+}
+
+.title {
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  margin-top: 0px;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+.slide-one {
+  color: red;
+  font-size: 2em;
+}
+
+.slide-two {
+  color: blue;
+  font-weight: 250;
+}
+
+.slide-three {
+  color: blue;
+}
+
+.slide-four {
+  color: blue;
+}
+
+.slide-five {
+  color: blue;
+}
+
+.in,
+.email {
+  margin: 0px 20px 0px 20px;
+}
+
+.git {
+  margin: 50px 20px -30px 20px;
+}
