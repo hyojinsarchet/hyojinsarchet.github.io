@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import Nav from "../Nav/Nav";
 import Home from "../Home/Home";
 import Project from "../Project/Project";
-// import "../Contact/Contact";
-// import "../Footer/Footer";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import "./App.css";
 
 class App extends Component {
@@ -17,6 +17,8 @@ class App extends Component {
         <hr className="hr" />
         <Home />
         <Project />
+        <Contact />
+        <Footer />
       </div>
     );
   }

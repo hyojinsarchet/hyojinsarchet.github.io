@@ -13,7 +13,7 @@ class Nav extends Component {
           Projects
         </Link>
         <Link to="/contact" className="nav-contact">
-          Contact
+          About|Contact
         </Link>
       </div>
     );

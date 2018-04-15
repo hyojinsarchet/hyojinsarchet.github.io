@@ -1,0 +1,13 @@
+.contact {
+  background-image: url(/images/coffee.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-origin: content-box;
+  padding: 50px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.contact-title {
+  text-decoration: underline;
+}
