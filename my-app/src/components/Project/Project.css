@@ -1,4 +1,15 @@
 .project {
   background-color: #f9f9f9;
-  /* display: inline-block; */
+  font-family: "Titillium Web", sans-serif;
+}
+
+.project-title {
+  text-decoration: underline;
+}
+.project-one {
+  margin-top: 50px;
+}
+
+.project-two {
+  margin-top: 100px;
 }
