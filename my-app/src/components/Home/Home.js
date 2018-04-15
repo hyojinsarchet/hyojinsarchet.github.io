@@ -24,7 +24,7 @@ class Home extends Component {
             <img src="images/in.jpeg" alt="LinkedIn" />
           </a>
           <a className="git" href="https://github.com/hyojinsarchet">
-            <img src="images/git.png" alt="Github" />
+            <img src="images/github.png" alt="Github" />
           </a>
           <a className="email" href="mailto:hyojin.sarchet@gmail.com">
             <img src="images/mail.png" alt="Email" />

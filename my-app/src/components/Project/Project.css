@@ -16,4 +16,9 @@
 
 .project-three {
   margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+p {
+  font-size: 0.8em;
 }

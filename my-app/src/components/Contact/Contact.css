@@ -4,10 +4,20 @@
   background-attachment: fixed;
   background-position: center;
   background-origin: content-box;
+  margin-top: 50px;
   padding: 50px;
   font-family: "Titillium Web", sans-serif;
 }
 
 .contact-title {
   text-decoration: underline;
+}
+
+.contact-s-title {
+  margin-bottom: 50px;
+}
+
+.email-address:hover {
+  text-decoration: underline;
+  color: red;
 }
