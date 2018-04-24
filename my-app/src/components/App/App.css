@@ -1,6 +1,12 @@
 .app {
   text-align: center;
   font-size: 1.5em;
+  /* height: 100%;
+  background-image: url(/images/background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-origin: content-box; */
 }
 
 .name {

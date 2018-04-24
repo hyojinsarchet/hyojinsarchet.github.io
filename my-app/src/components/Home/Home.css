@@ -14,29 +14,25 @@
 
 .slider {
   margin-top: 50px;
+  color: #1974d2;
 }
 
 .slide-one {
-  color: red;
   font-size: 1.5em;
   margin-top: 0px;
 }
 
 .slide-two {
-  color: blue;
   font-weight: 250;
 }
 
 .slide-three {
-  color: blue;
 }
 
 .slide-four {
-  color: blue;
 }
 
 .slide-five {
-  color: blue;
 }
 
 .in,

@@ -11,14 +11,14 @@ class Project extends Component {
           <a href="https://hyojinsarchet.github.io/Flash-Card-Game/">
             <img src="images/flash-card-game.png" alt="project-one" />
           </a>
-          <p> - Used skill: Html, CSS, JavaScript</p>
+          <p> - Created with Html, CSS, JavaScript</p>
           <p>
             - Users can learn some basic Korean words while playing this game.
           </p>
         </div>
         <div className="project-two">
           <h2>Where have you been?</h2>
-          <a href="https://sheltered-scrubland-75667.herokuapp.com/">
+          <a href="https://wherehaveyoubeen.herokuapp.com/">
             <img
               className="project-two-img"
               src="images/wherehaveyoubeen.png"
@@ -26,7 +26,7 @@ class Project extends Component {
             />
           </a>
           <p>
-            - Used skill: Html, CSS, JavaScript, Node.js, Express, Mongo DB,
+            - Created with Html, CSS, JavaScript, Node.js, Express, Mongo DB,
             Mongoose, Google Maps APIs, Materialize CSS
           </p>
           <p>
@@ -40,12 +40,23 @@ class Project extends Component {
             <img src="images/coffeerunsthroughme.png" alt="project-three" />
           </a>
           <p>
-            {" "}
-            - Used skill: React, Html, CSS, Node.js, Express, Mongoose, Mongo DB
+            - Created with React, Html, CSS, Node.js, Express, Mongoose, Mongo
+            DB
           </p>
           <p>
             - Users can create their profiles and track of how much caffeine
             they consume daily.
+          </p>
+        </div>
+        <div className="project-four">
+          <h2>Meal Prep Helper</h2>
+          <a href="http://mealprephelper.surge.sh/">
+            <img src="images/mealprephelper.png" alt="project-four" />
+          </a>
+          <p>- Created with React, Html, CSS, React Slick, React Material UI</p>
+          <p>
+            - Users can see the meal suggestions, get ideas, and plan their
+            meals for a week.
           </p>
         </div>
       </div>

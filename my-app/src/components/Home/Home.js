@@ -33,7 +33,7 @@ class Home extends Component {
 
         <Slider {...settings} className="slider">
           <div className="slide-one">
-            <h2>Hi!</h2>
+            <h3>Hi!</h3>
           </div>
           <div className="slide-two">
             <h3>I'm a developer based in Washington DC.</h3>

@@ -4,7 +4,7 @@
   background-attachment: fixed;
   background-position: center;
   background-origin: content-box;
-  margin-top: 50px;
+  margin: 50px auto 50px auto;
   padding: 50px;
   font-family: "Titillium Web", sans-serif;
 }
