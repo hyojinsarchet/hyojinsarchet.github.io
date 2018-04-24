@@ -4,7 +4,7 @@ import "./Contact.css";
 class Contact extends Component {
   render() {
     return (
-      <div className="contact">
+      <div id="contact" className="contact">
         <h1 className="contact-title">Contact</h1>
         <h3 className="contact-s-title">Would love to hear from you all!</h3>
         <p>Feel free to reach out to me through</p>

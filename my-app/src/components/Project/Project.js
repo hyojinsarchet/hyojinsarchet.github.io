@@ -4,7 +4,7 @@ import "./Project.css";
 class Project extends Component {
   render() {
     return (
-      <div className="project">
+      <div id="project" className="project">
         <h1 className="project-title">Projects</h1>
         <div className="project-one">
           <h2>Flash Card Game</h2>
