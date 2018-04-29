@@ -1,10 +1,21 @@
 # Hyojin Sarchet's Portfolio Website
 
-### This is my personal website.
+### About the website.
 
-### This website is created with React.
+* This is my personal portfolio website.
+* It has an about me, contacts, and projects I have built.
+
+### Built with
+
+* React
 
 ### How to run
 
-* This is deployed using surge.
-* Click [here](http://hyojin.surge.sh/)!
+* Click [here](http://hyojin.surge.sh/).
+* Or clone this repository.
+* `$npm install`
+* `$npm start`
+
+### The main page look
+
+![main](./images/portfolio-main.png)
