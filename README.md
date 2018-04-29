@@ -3,7 +3,7 @@
 ### About the website.
 
 * This is my personal portfolio website.
-* It has an about me, contacts, and projects I have built.
+* It contains an about me, my contacts, and projects I have built.
 
 ### Built with
 
@@ -18,4 +18,4 @@
 
 ### The main page look
 
-![main](./images/portfolio-main.png)
+![main](./my-app/public/images/portfolio-main.png)
