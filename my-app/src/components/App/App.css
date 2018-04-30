@@ -1,18 +1,14 @@
 .app {
   text-align: center;
   font-size: 1.5em;
-  /* height: 100%;
-  background-image: url(/images/background.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-origin: content-box; */
 }
 
 .name {
   color: black;
   font-family: "Titillium Web", sans-serif;
   margin: 0px auto 0px auto;
+  font-size: 2em;
+  letter-spacing: 5px;
 }
 
 .title {
@@ -20,7 +16,7 @@
   font-family: "Titillium Web", sans-serif;
   margin-top: 0px;
   font-size: 2.5em;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
 }
 
 .hr {

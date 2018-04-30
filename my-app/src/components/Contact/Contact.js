@@ -14,8 +14,8 @@ class Contact extends Component {
             <img src="images/email2.jpeg" alt="Email" />
           </a>
         </p>
-        <p>to schedule a cup of coffee or</p>
-        <p>discuss how we can work together.</p>
+        <p>to schedule a cup of coffee or discuss</p>
+        <p>how we can work together.</p>
       </div>
     );
   }

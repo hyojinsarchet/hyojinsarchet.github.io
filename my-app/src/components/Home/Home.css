@@ -1,7 +1,7 @@
 .home {
   text-align: center;
   font-family: "Special Elite", cursive;
-  width: 900px;
+  width: 700px;
   height: 320px;
   margin: 0px auto auto auto;
   color: black;
@@ -14,25 +14,15 @@
 
 .slider {
   margin-top: 50px;
-  color: #1974d2;
+  color: #006699;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70%;
 }
 
 .slide-one {
   font-size: 1.5em;
+  font-weight: bold;
   margin-top: 0px;
-}
-
-.slide-two {
-  font-weight: 250;
-}
-
-.slide-three {
-}
-
-.slide-four {
-}
-
-.slide-five {
 }
 
 .in {

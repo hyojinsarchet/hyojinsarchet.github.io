@@ -38,17 +38,23 @@ class Home extends Component {
           <div className="slide-one">
             <h3>Hi!</h3>
           </div>
-          <div className="slide-two">
-            <h3>I'm a developer based in Washington DC.</h3>
+          <div>
+            <h3>I'm a Web Developer based in Washington DC.</h3>
           </div>
-          <div className="slide-three">
+          <div>
             <h3>I am also a food blogger, a traveler, and a hiker.</h3>
           </div>
-          <div className="slide-four">
-            <h3>Want to check out my cool projects?</h3>
+          <div>
+            <h3>I like working with React, Javascript, HTML, CSS.</h3>
           </div>
-          <div className="slide-five">
-            <h3>Just scroll down a little bit. :)</h3>
+          <div>
+            <h3>
+              I have experience with Node.js, MongoDB, Express, Mongoose, Redux,
+              Ruby, and Ruby on Rails.
+            </h3>
+          </div>
+          <div>
+            <h3>Scroll down a little bit to check out my cool projects!</h3>
           </div>
         </Slider>
       </div>
