@@ -3,6 +3,17 @@
   font-size: 1.5em;
 }
 
+.box {
+  margin: 50px 110px 20px 110px;
+  width: 1200px;
+  height: 650px;
+  background: #fff;
+  border: solid black;
+  float: center;
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+}
+
 .name {
   color: black;
   font-family: "Titillium Web", sans-serif;
@@ -30,3 +41,6 @@
   );
   width: 60%;
 }
+
+/* Learned about the Comicbook Inspired Hand Drawn Borders from this link below
+https://codemyui.com/comicbook-inspired-hand-drawn-borders/ */

@@ -1,5 +1,5 @@
 .footer {
-  background: #293c4e;
+  background: black;
   bottom: 0px;
   width: 100%;
   height: 60px;
@@ -9,7 +9,9 @@
 .footer p {
   color: white;
   margin: 30px auto auto 20px;
-  padding-top: 10px;
+  padding-top: 13px;
   font-size: 20px;
   text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
 }
