@@ -6,6 +6,7 @@
 
 .project-title {
   text-decoration: underline;
+  text-transform: uppercase;
 }
 .project-one {
   margin-top: 50px;
