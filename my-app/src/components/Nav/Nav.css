@@ -19,5 +19,5 @@
 .nav-project:hover,
 .nav-contact:hover {
   text-decoration: underline;
-  color: red;
+  color: #e94b3c;
 }

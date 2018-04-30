@@ -35,11 +35,26 @@
 .slide-five {
 }
 
-.in,
+.in {
+  margin: 0px 20px 0px 20px;
+  font-size: 50px;
+  color: black;
+}
+
 .email {
   margin: 0px 20px 0px 20px;
+  font-size: 50px;
+  color: black;
 }
 
 .git {
   margin: 30px 20px auto 20px;
+  font-size: 50px;
+  color: black;
+}
+
+.in:hover,
+.email:hover,
+.git:hover {
+  color: red;
 }

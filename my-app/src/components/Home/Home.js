@@ -21,13 +21,16 @@ class Home extends Component {
             className="in"
             href="https://www.linkedin.com/in/hyojin-sarchet-580463b0/"
           >
-            <img src="images/in.jpeg" alt="LinkedIn" />
+            {/* <img src="images/in.jpeg" alt="LinkedIn" /> */}
+            <i class="fab fa-linkedin" />
           </a>
           <a className="git" href="https://github.com/hyojinsarchet">
-            <img src="images/github.png" alt="Github" />
+            {/* <img src="images/github.png" alt="Github" /> */}
+            <i class="fab fa-github-square" />
           </a>
           <a className="email" href="mailto:hyojin.sarchet@gmail.com">
-            <img src="images/mail.png" alt="Email" />
+            {/* <img src="images/mail.png" alt="Email" /> */}
+            <i class="fas fa-envelope-square" />
           </a>
         </div>
 
