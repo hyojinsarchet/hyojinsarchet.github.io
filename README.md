@@ -18,4 +18,4 @@
 
 ### The main page look
 
-![main](./my-app/public/images/portfolio-main.png)
+![main](./my-app/public/images/portfolio-mainlook.png)
